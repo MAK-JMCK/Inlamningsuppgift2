@@ -1,20 +1,25 @@
 Del1
+------------------------------------------------------------------------------------------------------------
 
 Objekt: Ett objekt är instans (Konkret exempel på en Klass ”blueprint”) , alltså
 att man använder klassens blueprint för att bygga något konkret som har både
 attribut och metod.
+------------------------------------------------------------------------------------------------------------
 
 Konstruktor: Det är en speciell typ av metod som skapas antingen automatiskt eller
  manuellt när man skapa ett nytt objekt, just den metoden kan inte göra return på
  något värde utan anses som startknapp för själva objektet där man kan ge startvärde.
   En konstruktor har alltid samma namn som sin klass.
+------------------------------------------------------------------------------------------------------------
 
 Attribut: Det är variabler som beskriver objektets egenskaper och deklareras i klassen
  utanför metoden, sedan går de oftast in i konstroktor för att få sitt första värde.
+------------------------------------------------------------------------------------------------------------
 
  VCS: Version Control System, är ett system som hjälper oss hålla koll på våra filer över tid
  och gör det möjligt att samarbete med andra. man kan spara historik och man enkelt jämföra de nya uppdateringar
  av filer som kommer från branch eller direkt in i master.
+------------------------------------------------------------------------------------------------------------
 
  TDD: Testdriven utveckling, det är rn metod som man skriver innan man börjar med själva koden.
  Det handlar om att vi först och främst ska skriva test för en ny funktion sedan skapan just den metoden och sedan testa den igen
