@@ -1,6 +1,5 @@
 Del1
 ------------------------------------------------------------------------------------------------------------
-
 Objekt: Ett objekt är instans (Konkret exempel på en Klass ”blueprint”) , alltså
 att man använder klassens blueprint för att bygga något konkret som har både
 attribut och metod.
