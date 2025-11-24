@@ -17,7 +17,7 @@ public class TestClass {
         assertTrue(ordArray.isStop());
         assertEquals(0,ordArray.getAntalTecken());
         assertEquals(0,ordArray.getAntalOrd());
-        assertEquals("",ordArray.getLongestWord());
+        assertEquals("",ordArray.getLongestWords());
     }
 //    testar skriva stop med storabokstäver
     @Test
@@ -35,7 +35,17 @@ public class TestClass {
         ordArray.addWord("Amjadkryem");
         ordArray.addWord("amjadkrye");
         ordArray.addWord("amjadkrye ECUtbildning HelloWorld");
-        assertEquals("ECUtbildning",ordArray.getLongestWord());
+        assertEquals("ECUtbildning",ordArray.getLongestWords());
+    }
+    @Test
+    public void testLongWords(){
+        Logik ordArray = new Logik();
+        ordArray.addWord("amjad");
+        ordArray.addWord("Amjadkryem");
+        ordArray.addWord("amjadkrye");
+        ordArray.addWord("HelloWorld12");
+        ordArray.addWord("amjadkrye ECUtbildning  HelloWorld34");
+        assertEquals("HelloWorld12, ECUtbildning, HelloWorld34",ordArray.getLongestWords());
     }
 
 

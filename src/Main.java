@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Antal Rader: " + ordArray.getAntalRader());
         System.out.println("Antal Tecken: "+ ordArray.getAntalTecken());
         System.out.println("Antal Ord: "+ ordArray.getAntalOrd());
-        System.out.println("längsta ordet är: " + ordArray.getLongestWord());
+        System.out.println("längsta ordet/orden är: " + ordArray.getLongestWords());
         System.out.println("Tack för att du använde programmet");
     }
 }
